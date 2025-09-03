@@ -117,10 +117,6 @@ a {
     line-height: 1.5;
 }
 
-.menu .item.first {
-    border-radius: 0px 0px 4px 4px;
-}
-
 nav a:hover,
 .menu .link:hover {
     color: #404bbf;
@@ -318,10 +314,14 @@ nav a:focus,
     justify-content: center;
     column-gap: 24px;
     row-gap: 48px;
-    width: calc((100%-48px) / 3);
 
     max-width: 100%;
 }
+
+.project-cards-menu .item {
+  width: calc((100% - 48px) / 3);
+}
+
 
 .project-cards-menu .item-container {
     display: flex;
@@ -340,10 +340,6 @@ nav a:focus,
 .project-cards .item img {
     max-width: 100%;
     display: block;
-}
-
-.project-cards-menu .item.first {
-    width: calc((100% - 48px) / 3)
 }
 
 .footer {
