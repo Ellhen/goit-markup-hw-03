@@ -280,6 +280,10 @@ nav a:focus,
     max-width: 100%;
 }
 
+.team-cards-menu .item:first-child {
+    border-radius: 0px 0px 4px 4px;
+}
+
 .team-cards-menu .item-container {
     display: flex;
     align-items: center;
@@ -319,9 +323,8 @@ nav a:focus,
 }
 
 .project-cards-menu .item {
-  width: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
 }
-
 
 .project-cards-menu .item-container {
     display: flex;
