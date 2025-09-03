@@ -44,6 +44,15 @@ body {
     border-bottom: 1px solid #e7e9fc;
 }
 
+.container.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-nav a {
+    padding: 24px 0;
+}
+
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -68,10 +77,6 @@ ol {
 
 a {
     text-decoration: none;
-}
-
-.header {
-    padding: 24px 0;
 }
 
 .header-nav .logo {
@@ -134,7 +139,7 @@ nav a:focus,
     color: #434455;
 }
 
-.address .menu-items {
+.menu-items {
     display: flex;
     gap: 40px;
 }
