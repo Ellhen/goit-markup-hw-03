@@ -292,7 +292,7 @@ nav a:focus,
 
     background-color: #ffffff;
 
-    border-radius: 0 0 4px 4px;
+    border-radius: 0px 0px 4px 4px;
     padding: 32px 0;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
         0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
