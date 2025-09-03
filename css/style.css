@@ -71,17 +71,19 @@ a {
 }
 
 .header {
-    padding: 24px;
+    padding: 24px 0;
 }
 
 .header-nav .logo {
     margin-right: 76px;
+    display: flex;
 }
 
 .header .container nav {
     display: flex;
 
     align-items: center;
+    justify-content: space-between;
 }
 
 .menu {
@@ -132,7 +134,7 @@ nav a:focus,
     color: #434455;
 }
 
-.menu-items {
+.address .menu-items {
     display: flex;
     gap: 40px;
 }
@@ -238,6 +240,17 @@ nav a:focus,
     margin-bottom: 8px;
 }
 
+.features-menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.features-menu .item {
+    width: calc((100% - 3 * 24px));
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -249,13 +262,6 @@ nav a:focus,
     clip: rect(0 0 0 0);
     overflow: hidden;
     padding: 0;
-}
-
-.features-menu {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 24px;
 }
 
 .team-cards-menu {
@@ -326,7 +332,7 @@ nav a:focus,
 .footer {
     background-color: #2e2f42;
     color: #f4f4fd;
-    padding: 100px;
+    padding: 100px 0;
 }
 
 .footer .text {
