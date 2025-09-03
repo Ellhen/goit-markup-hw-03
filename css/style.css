@@ -48,7 +48,7 @@ body {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17em;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -212,7 +212,7 @@ nav a:focus,
     letter-spacing: 0.02em;
     line-height: 24px;
     color: #434455;
-    padding-bottom: 32px;
+    /*padding-bottom: 32px;*/
 }
 
 .title {
@@ -236,7 +236,7 @@ nav a:focus,
 
     text-transform: capitalize;
     color: #2e2f42;
-    margin-top: 32px;
+    /*margin-top: 32px;*/
     margin-bottom: 8px;
 }
 
@@ -282,6 +282,7 @@ nav a:focus,
     background-color: #ffffff;
 
     border-radius: 0 0 4px 4px;
+    padding: 32px 0;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
         0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
@@ -306,6 +307,7 @@ nav a:focus,
     justify-content: center;
     column-gap: 24px;
     row-gap: 48px;
+    width: calc((100%-48px) / 3);
 
     max-width: 100%;
 }
